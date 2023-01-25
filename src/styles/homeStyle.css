@@ -1,0 +1,72 @@
+.postsArea {
+
+}
+
+.postCard {
+    max-width: 700px;
+    height: auto;
+    margin: 15px auto;
+    border: 1px solid springgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+}
+
+.postContent {
+
+}
+
+.postTitle {
+    font-size: 20px;
+    color: lightslategray;
+}
+
+.postBody {
+    font-size: 18px;
+    color: dimgray;
+}
+
+.postButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.update {
+    background-color: cyan;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.update a {
+    text-decoration: none;
+    color: black;
+}
+
+.delete {
+    background-color: cyan;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.update:hover {
+    width: 100px;
+    height: 40px;
+    background-color: #034b6b;
+    color: white;
+    transition: 0.5s;
+}
+
+.delete:hover {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}

@@ -1,0 +1,42 @@
+.updatePost {
+    min-width: 500px;
+    max-width: 700px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.upForm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.upForm input {
+    margin: 15px 0;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.upForm textarea {
+    margin: 15px 0;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.upForm button {
+    width: 100px;
+    height: 40px;
+    margin: 15px auto;
+    border: none;
+    background-color: #384ca5;
+    color: #d0e2ec;
+    border-radius: 11px;
+}
+
+.upForm button:hover {
+    background-color: #15ec01;
+}
